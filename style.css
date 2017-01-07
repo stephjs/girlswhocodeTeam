@@ -1,0 +1,83 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.green {
+	background-color: #8dc8b4;
+}
+.purple {
+	background-color: #d4a2db;
+}
+.blue {
+	background-color: #79cdd8;
+}
+
+.aboutText, .nameText {
+	display: none;
+}
+#highlight {
+	width: 100%;
+	position: relative;
+}
+#otherPeople {
+	margin-top: 350px;
+}
+.pane {
+	width: 33%;
+	height: 300px;
+	position: absolute;
+	display: inline-block;
+	padding: none;
+}
+#pane3 {
+	left: 0;
+}
+#pane2 {
+	left: 33%;
+}
+#pane1 {
+	left: 66%;
+}
+
+.pane .teamBio {
+	width: 100%;
+}
+
+.pane .teamBio img {
+	width: 50%;
+}
+.pane img {
+	width: 50%;
+}
+.pane .teamBio .aboutText, .pane .teamBio .nameText {
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pane .teamBio .person {
+	padding: 10px 5px 0px 10px;
+}
+.pane .teamBio {
+	overflow: scroll;
+}
+.person {
+	width: 100%;
+	float: left;
+}
+.teamBio {
+	width: 8%;
+	float: left;
+	margin: 1%;
+	height: 100%;
+}
+
+@media (max-width: 800px) {
+  .pane .teamBio img {
+	padding: 10px;
+	width: 95%;
+	}
+}
